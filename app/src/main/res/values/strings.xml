@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Percent CalculatorApp</string>
+    <string name="app_description">This application computes for the percentage value of a given number.</string>
+    <string name="app_btncompute">Compute</string>
+    <string name="app_btnreturn">New Computation</string>
+    <string name="app_hint_percent">Enter Percent</string>
+    <string name="app_symbol_percent">%</string>
+    <string name="app_hint_number">Enter a number</string>
+    <string name="app_result_description">Computing....</string>
+</resources>

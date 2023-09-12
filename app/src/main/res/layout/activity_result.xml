@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="167dp"
+        android:text="@string/app_result_description"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/app_btnreturn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
+</androidx.constraintlayout.widget.ConstraintLayout>
